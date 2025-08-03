@@ -11,8 +11,8 @@ void updateYear(car &c) {
 }
 
 int main() {
-    car myCar = {"bmw", 2025};
-    updateYear(myCar);
-    cout << myCar.brand << " : " << myCar.year;
-    return 0;
+  car myCar = {"bmw", 2025};
+  updateYear(myCar);
+  cout << myCar.brand << ": " << myCar.year;
+  return 0;
 }
